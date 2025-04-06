@@ -33,12 +33,12 @@ jobs:
 
       - name: Setup Git Configuration
         run: |
-          git config user.email "rxmxdhxni@gmail.com"
+          git config user.email "q410525209@gmail.com"
           git config user.name "dante4rt"
 
       - name: Prepare Commit
         run: |
-          commit_messages=("Update: ⏰" "Refresh: 🔄" "Renew: 🌟" "Revise: 📝" "Amend: 🛠" "Adjust: 🔧" "Change: 📈" "Modify: 🖊" "Transform: 🌀" "Revamp: 🌈")
+          commit_messages=("更新: ⏰" "刷新: 🔄" "续新: 🌟" "修订: 📝" "修正: 🛠" "调整: 🔧" "变更: 📈" "修改: 🖊" "转化: 🌀" "翻新: 🌈")
           random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
 
           git add TIMESTAMP.txt
